@@ -1,0 +1,70 @@
+.back-button {
+  position: absolute;
+  text-indent: -10px;
+  padding: 5px 0 5px 10px;
+  width: 53px; /* modified by label length */
+  overflow: auto;
+  margin-left: 17px;
+}
+
+nav {
+  margin-top: 60px;
+  background-color: rgb(57, 132, 71);
+  padding: 2px;
+  width: 98%;
+  margin-left: 1%;
+  border-radius: 23px;
+}
+
+.back-button {
+  margin-left: 1%;
+  top: 6px;
+  background: #0d6efd;
+  color: white;
+  width: 100px;
+}
+
+.card-body {
+  width: 28%;
+  margin-left: 82px;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0), 0 1px 1px 0 rgb(0 0 0),
+    0 1px 3px 0 rgb(0 0 0);
+  margin-top: 40px;
+}
+
+.card-body-2 {
+  margin-left: 37%;
+  margin-top: -368px;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0), 0 1px 1px 0 rgb(0 0 0),
+    0 1px 3px 0 rgb(0 0 0);
+  width: 28%;
+}
+.card-body-3 {
+  top: -1886px;
+  width: 381px;
+  margin-left: 1061px;
+  height: 1903px;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0), 0 1px 1px 0 rgb(0 0 0), 0 1px 3px 0 rgb(0 0 0);
+}
+.img {
+  margin-left: 58px;
+}
+
+.subscribe {
+  text-align: center;
+}
+
+h6 {
+  font-size: 17px;
+}
+
+#chat-icon{
+  width: 87px;
+  margin-left: 6px;
+}
+
+.breadcrumb{
+  margin-top: 14px;
+  font-size: 23px;
+  margin-left: 19px;
+}

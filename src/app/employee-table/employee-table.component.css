@@ -1,0 +1,30 @@
+table {
+  width: 90%;
+  height: 70%;
+  margin-left: 5%;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+/* table, th, td {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 7px;
+} */
+
+.container {
+  background-color: rgb(145, 144, 141);
+}
+
+.table-header {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 25px;
+}

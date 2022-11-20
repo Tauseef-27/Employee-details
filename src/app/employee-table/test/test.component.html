@@ -1,0 +1,244 @@
+<button [routerLink]="['/']" class="back-button" mat-raised-button><mat-icon>arrow_back</mat-icon></button>
+<nav aria-label="breadcrumb" class="topnav">
+  <ol class="breadcrumb">
+    <a routerLink=''>Home</a>/
+    <a routerLink="test">User</a>/
+    <a>User Profile</a>
+  </ol>
+</nav>
+
+<mat-card class="card-body">
+  <div class="img">
+    <img src={{productsArray.image}} />
+  </div>
+  <div class="subscribe">
+    <button mat-raised-button class="btn btn-primary">Follow</button>
+    <button mat-raised-button class="btn btn-primary" id="chat-icon"><mat-icon> chat</mat-icon></button>
+  </div>
+</mat-card>
+
+<mat-card class="card-body-2">
+  <div>
+    <h6>ID</h6>
+    <p>{{productsArray.id}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>First Name</h6>
+    <p>{{productsArray.firstName}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Last Name</h6>
+    <p>{{productsArray.lastName}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Maiden Name</h6>
+    <p>{{productsArray.maidenName}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Age</h6>
+    <p>{{productsArray.age}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Gender</h6>
+    <p>{{productsArray.gender}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Email</h6>
+    <p>{{productsArray.email}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Phone</h6>
+    <p>{{productsArray.phone}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>UserName</h6>
+    <p>{{productsArray.username}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Password</h6>
+    <p>{{productsArray.password}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Birthdate</h6>
+    <p>{{productsArray.birthDate}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Bloodgroup</h6>
+    <p>{{productsArray.bloodGroup}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Height</h6>
+    <p>{{productsArray.height}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Weight</h6>
+    <p>{{productsArray.weight}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Eyecolor</h6>
+    <p>{{productsArray.eyeColor}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Hair Color</h6>
+    <p>{{productsArray.hair.color}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Hair Type</h6>
+    <p>{{productsArray.hair.type}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Domain</h6>
+    <p>{{productsArray.domain}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>IP</h6>
+    <p>{{productsArray.ip}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Address</h6>
+    <p>{{productsArray.address.address}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>City</h6>
+    <p>{{productsArray.address.city}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Lat</h6>
+    <p>{{productsArray.address.coordinates.lat}}</p>
+  </div>
+  <hr>
+</mat-card>
+
+<mat-card class="card-body-3">
+  <div>
+    <h6>Lng</h6>
+    <p>{{productsArray.address.coordinates.lng}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>PostalCode</h6>
+    <p>{{productsArray.address.postalCode}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>State</h6>
+    <p>{{productsArray.address.state}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Mac Address</h6>
+    <p>{{productsArray.macAddress}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>University</h6>
+    <p>{{productsArray.university}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Card Expire</h6>
+    <p>{{productsArray.bank.cardExpire}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Card Number</h6>
+    <p>{{productsArray.bank.cardNumber}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Card Type</h6>
+    <p>{{productsArray.bank.cardType}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Currency</h6>
+    <p>{{productsArray.bank.currency}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Iban</h6>
+    <p>{{productsArray.bank.iban}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Company Address</h6>
+    <p>{{productsArray.company.address.address}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>City</h6>
+    <p>{{productsArray.company.address.city}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Coordinates-lat</h6>
+    <p>{{productsArray.company.address.coordinates.lat}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Coordinates-lng</h6>
+    <p>{{productsArray.company.address.coordinates.lng}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Postal Code</h6>
+    <p>{{productsArray.company.address.postalCode}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>State</h6>
+    <p>{{productsArray.company.address.state}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Department</h6>
+    <p>{{productsArray.company.department}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Name</h6>
+    <p>{{productsArray.company.name}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Title</h6>
+    <p>{{productsArray.company.title}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Ein</h6>
+    <p>{{productsArray.ein}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>Ssn</h6>
+    <p>{{productsArray.ssn}}</p>
+  </div>
+  <hr>
+  <div>
+    <h6>User Agent</h6>
+    <p>{{productsArray.userAgent}}</p>
+  </div>
+  <hr>
+</mat-card>
